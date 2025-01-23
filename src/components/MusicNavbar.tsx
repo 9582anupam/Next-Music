@@ -15,10 +15,12 @@ const MusicNavbar = ({ className }: { className?: string }) => {
                 className
             )}>
             <Menu setActive={setActive}>
-                <MenuItem
-                    setActive={setActive}
-                    active={active}
-                    item="Home"></MenuItem>
+                <Link href="/">
+                    <MenuItem
+                        setActive={setActive}
+                        active={active}
+                        item="Home"></MenuItem>
+                </Link>
                 <MenuItem
                     setActive={setActive}
                     active={active}
@@ -50,6 +52,6 @@ const MusicNavbar = ({ className }: { className?: string }) => {
             </Menu>
         </div>
     );
-}
+};
 
 export default MusicNavbar;
