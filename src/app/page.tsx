@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <FeaturedCourses />
             <WhyChooseUs />
             <Testimonials />
+            <UpcomingWebinars />    
         </main>
     );
 }
