@@ -1,10 +1,10 @@
-import Hero from "@/components/Hero";
-import FeaturedCourses from "@/components/FeaturedCourses";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import Testimonials from "@/components/Testimonials";
-import UpcomingWebinars from "@/components/UpcomingWebinars";
-import Instructors from "@/components/Instructors";
-import Footer from "@/components/Footer";
+import Hero from "./pages/home/Hero";
+import FeaturedCourses from "./pages/home/FeaturedCourses";
+import WhyChooseUs from "./pages/home/WhyChooseUs";
+import Testimonials from "./pages/home/Testimonials";
+import UpcomingWebinars from "./pages/home/UpcomingWebinars";
+import Instructors from "./pages/home/Instructors";
+import Footer from "./pages/home/Footer";
 
 export default function Home() {
     return (
