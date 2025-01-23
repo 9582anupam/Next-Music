@@ -6,7 +6,7 @@ import { HoveredLink, Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-export function Navbar({ className }: { className?: string }) {
+const Navbar = ({ className }: { className?: string }) => {
     const [active, setActive] = useState<string | null>(null);
     return (
         <div
@@ -51,3 +51,5 @@ export function Navbar({ className }: { className?: string }) {
         </div>
     );
 }
+
+export default Navbar;
